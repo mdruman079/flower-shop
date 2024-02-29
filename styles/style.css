@@ -38,7 +38,7 @@ button:hover {
   font-weight: 800;
 }
 
-header {
+header, .hot-deal {
   background-color: rgb(221, 184, 137);
 }
 
@@ -108,4 +108,9 @@ header {
   align-items: center;
   padding: 10px;
   margin: 0px 0px 10px 0px;
+}
+.hot-deal-main{
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
