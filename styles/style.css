@@ -107,10 +107,48 @@ header, .hot-deal {
   justify-content: space-around;
   align-items: center;
   padding: 10px;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 40px 0px;
 }
 .hot-deal-main{
 display: flex;
 justify-content: space-around;
 align-items: center;
+padding: 100px 0px;
+}
+.hot-deal .hot-deal-text{
+  width: 75%;
+  max-width: 445px;
+}
+.hot-deal .hot-deal-text *{
+  margin-bottom: 24px;
+}
+.hot-deal .hot-deal-text h2{
+  font-size: 32px;
+  font-weight: 800;
+}
+.hot-deal .hot-deal-text h2 .off{
+  color: red;
+}
+.hot-deal .hot-deal-img{
+width: 320px;
+}
+.newsletter{
+  margin: 128px 0px;
+}
+.newsletter-main{
+  background-image: url('../asset/Rectangle\ 9.png');
+  padding: 122px 0;
+}
+.newsletter form{
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  gap: 10px;
+}
+.newsletter form input{
+flex-grow: 1;
+border: none;
+border-radius: 5px;
+padding: 10px;
+font-size: 18px;
 }
