@@ -39,10 +39,10 @@ button:hover {
 }
 
 header {
-  background-color: antiquewhite;
+  background-color: rgb(221, 184, 137);
 }
 
-.container, .info-section {
+.container {
   width: 75%;
   max-width: 1440px;
   margin: 0 auto;
