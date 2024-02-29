@@ -1,7 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
 *{
   margin: 0px;
   padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+p{
+  font-size: 18px;
+  font-weight: 400;
+}
+button{
+  border-radius: 10px;
+  background: rgb(241, 80, 80);
+  color: floralwhite;
+  border: none;
+  font-size: 20px;
+  padding: 15px 25px;
 }
 header{
   background-color: antiquewhite;
+}
+.banner-container{
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-container .banner-text *{
+  margin-bottom: 32px;
+  max-width: 525px;
+}
+.banner-container .banner-text h1{
+  font-size: 60px;
+  font-weight: 800;
+}
+.banner-container .banner-image img{
+  width: 100%;
+  vertical-align: middle;
 }
