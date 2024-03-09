@@ -86,6 +86,7 @@ header,
   gap: 20px;
   margin-top: 20px;
 }
+
 .section-content .flower .flower-img {
   background-color: pink;
   border-radius: 300px 300px 0px 0px;
@@ -116,9 +117,11 @@ header,
   margin: 0px 0px 100px 0px;
   border-radius: 8px;
 }
+
 .info-container .info {
   text-align: center;
 }
+
 /* hot deal style */
 
 .hot-deal-main {
